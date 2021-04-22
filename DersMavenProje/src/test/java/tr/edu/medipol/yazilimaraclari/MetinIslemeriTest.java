@@ -8,8 +8,8 @@ public class MetinIslemeriTest {
 
 	@Test
 	public void testBuyukHarfCevir() {
-		String deneme = "zahit can karaca";
-		String sonuc = MetinIslemleri.buyukHarfCevir(deneme);
+		String ornek1 = "zahit can karaca";
+		String sonuc = MetinIslemleri.buyukHarfCevir(ornek1);
 		assertEquals("ZAHÝT CAN KARACA",sonuc);
 	}
 

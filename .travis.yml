@@ -1,4 +1,4 @@
 language : java
 script : "mvm - -f DersMavenProje/pom.xml clean test verify"
 jdk:
-   - oraclejdk8
+   - openjdk8

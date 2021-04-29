@@ -13,4 +13,18 @@ public class MetinIslemeriTest {
 		assertEquals("ZAHÝT CAN KARACA",sonuc);
 	}
 
+	@Test
+	public void testBuyukHarfCevirNull() {
+		String ornek1 = null;
+		String sonuc = MetinIslemleri.buyukHarfCevir(ornek1);
+		assertEquals(null,sonuc);
+	}
+	
+	@Test
+	public void testBuyukHarfCevirBos() {
+		String ornek1 = "";
+		String sonuc = MetinIslemleri.buyukHarfCevir(ornek1);
+		assertEquals("",sonuc);
+	}
+
 }

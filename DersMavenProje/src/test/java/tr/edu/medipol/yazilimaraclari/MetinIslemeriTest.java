@@ -8,9 +8,9 @@ public class MetinIslemeriTest {
 
 	@Test
 	public void testBuyukHarfCevir() {
-		String ornek1 = "zahit can karaca";
+		String ornek1 = "can karaca";
 		String sonuc = MetinIslemleri.buyukHarfCevir(ornek1);
-		assertEquals("ZAHÝT CAN KARACA",sonuc);
+		assertEquals("CAN KARACA",sonuc);
 	}
 
 	@Test
